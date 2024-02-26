@@ -1,0 +1,27 @@
+---
+upgrades_enabled: yes
+
+essential_packages:
+- zsh
+- zplug
+- tmux
+- neovim
+- vim
+- sudo
+- wget
+- curl
+- git
+- htop
+- gnupg
+- net-tools
+- msmtp
+- msmtp-mta
+- mailutils
+- needrestart
+
+mail_to: __edit_me__ # e.g. admin@example.com
+mail_from: __edit_me__ # e.g. root@example.com
+mail_smtp_server: __edit_me__ # e.g. smtp.example.com
+mail_port: 587
+send_testmail: yes
+
