@@ -21,7 +21,7 @@ essential_packages:
 
 mail_to: __edit_me__ # e.g. admin@example.com
 mail_from: __edit_me__ # e.g. root@example.com
-mail_smtp_server: __edit_me__ # e.g. smtp.example.com
+mail_relay: __edit_me__ # e.g. smtp.example.com
 mail_port: 587
 send_testmail: yes
 
