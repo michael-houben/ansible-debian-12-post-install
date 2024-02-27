@@ -8,7 +8,7 @@ Installs some essential packages and applies some basic configurations.
 Requires Ansible 2.10 or later. This role has only been tested on Debian 12 (Bookworm).
 
 ## Role Variables
-Please edit at least all variables with  `__edit_me__` placeholder in `defaults/main.yml`. A list of packages for installation is defined in the same file.
+Please edit at least all variables with  `__edit_me__` placeholder in [`defaults/main.yml`](https://github.com/michael-houben/ansible-debian-12-post-install/blob/main/defaults/main.yml). A list of packages for installation is defined in the same file.
 
 ## Dependencies
 None
@@ -19,7 +19,7 @@ None
       become: yes
       become_method: sudo
       roles:
-        - ansible-debian-12-xyz
+        - ansible-debian-12-post-install
 
 ## Example Inventory
 
