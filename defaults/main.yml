@@ -1,4 +1,10 @@
 ---
+mail_to: __edit_me__ # e.g. admin@example.com
+mail_from: __edit_me__ # e.g. root@example.com
+mail_relay: __edit_me__ # e.g. smtp.example.com
+mail_port: 587
+send_testmail: yes
+
 upgrades_enabled: yes
 
 essential_packages:
@@ -18,10 +24,3 @@ essential_packages:
 - msmtp-mta
 - mailutils
 - needrestart
-
-mail_to: __edit_me__ # e.g. admin@example.com
-mail_from: __edit_me__ # e.g. root@example.com
-mail_relay: __edit_me__ # e.g. smtp.example.com
-mail_port: 587
-send_testmail: yes
-
